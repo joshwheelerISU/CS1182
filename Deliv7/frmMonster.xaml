@@ -1,0 +1,21 @@
+﻿<Window x:Class="Deliv7.frmMonster"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deliv7"
+        mc:Ignorable="d"
+        Title="Monster!" Height="273.297" Width="343.971" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="lblAnnounce" Content="You have encountered:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="215"/>
+        <Label x:Name="lblMonsterFullName" Content="" HorizontalAlignment="Left" Margin="142,10,0,0" VerticalAlignment="Top" Width="184"/>
+        <Label x:Name="lblVs" Content="" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" RenderTransformOrigin="1,-0.308" Width="316"/>
+        <Label x:Name="lblHeroName" Content="Hero Name:" HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.632,0.423" Width="134"/>
+        <Label x:Name="lblMonsterName" Content="Monster Name:" HorizontalAlignment="Left" Margin="181,83,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.632,0.423" Width="134"/>
+        <Label x:Name="lblHeroHP" Content="Hero Name:" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.632,0.423" Width="134"/>
+        <Label x:Name="lblMonsterHP" Content="Monster Name:" HorizontalAlignment="Left" Margin="181,114,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.632,0.423" Width="134"/>
+        <Button x:Name="btnAttack" Content="Attack!" HorizontalAlignment="Left" Margin="69,172,0,0" VerticalAlignment="Top" Width="75" Click="BtnAttack_Click"/>
+        <Button x:Name="lblRun" Content="Run!" HorizontalAlignment="Left" Margin="150,172,0,0" VerticalAlignment="Top" Width="75" Click="LblRun_Click"/>
+
+    </Grid>
+</Window>

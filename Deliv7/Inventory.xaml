@@ -1,0 +1,20 @@
+﻿<Window x:Name="Inventory" x:Class="Deliv7.Inventoruy"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deliv7"
+        mc:Ignorable="d"
+        Title="Inventory" Height="334.019" Width="371.929" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel  x:Name="stkInventory" HorizontalAlignment="Left" Height="238" Margin="10,41,0,0" VerticalAlignment="Top" Width="129"/>
+        <Label x:Name="lblInventory" Content="Items:" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Width="105"/>
+        <Label x:Name="lblSelectedName" Content="" HorizontalAlignment="Left" Margin="144,41,0,0" VerticalAlignment="Top" Width="165"/>
+        <Label x:Name="lblSelectedStats" Content="" HorizontalAlignment="Left" Margin="144,72,0,0" VerticalAlignment="Top" Width="165"/>
+        <Button x:Name="btnApply" Content="Use / Equip" HorizontalAlignment="Left" Margin="144,103,0,0" VerticalAlignment="Top" Width="165" Click="BtnApply_Click"/>
+        <TextBlock x:Name="lblNote" Background="#FFC79444" HorizontalAlignment="Left" Margin="178,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="134" Width="165" FontFamily="Segoe Script" FontStyle="Oblique" FontWeight="Bold"><Run Text="  I am Sorry it had to be like this. I've left a key for the door somewhere in this room. You need to face the danger, retrieve the key, and escape. "/><LineBreak/><Run Text="-H. J. "/></TextBlock>
+        <Label x:Name="lblNote1" Content="Mysterious Note:" HorizontalAlignment="Left" Margin="244,128,-66,0" VerticalAlignment="Top" Width="165"/>
+        <Button x:Name="btnDestroy" Content="Destroy" HorizontalAlignment="Left" Margin="314,103,0,0" VerticalAlignment="Top" Width="46" Click="BtnDestroy_Click"/>
+
+    </Grid>
+</Window>

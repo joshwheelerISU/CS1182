@@ -1,0 +1,18 @@
+﻿<Window x:Class="Deliv7.frmFoundIt"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deliv7"
+        mc:Ignorable="d"
+        Title="Loot!
+        " Height="194.297" Width="242.971" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="lblAnnounce" Content="You have found:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="215"/>
+        <Label x:Name="lblItem" Content="" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="219"/>
+        <Button x:Name="lblClose" Content="Ignore" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Width="215" Click="LblClose_Click"/>
+        <Button x:Name="lblAddToInv" Content="Add to Inventory!" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top" Width="215" Click="LblAddToInv_Click"/>
+        <Button x:Name="btnEquip" Content="Use / Equip!" HorizontalAlignment="Left" Margin="10,83,0,0" VerticalAlignment="Top" Width="215" Click="BtnEquip_Click"/>
+
+    </Grid>
+</Window>
